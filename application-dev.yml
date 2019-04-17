@@ -12,7 +12,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: 
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
@@ -22,9 +22,9 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 127.0.0.103
+    host: 10.48.172.10
     port: 6379
-    password: x19961010
+    password: 
 
   rabbitmq:
     host: 127.0.0.1
